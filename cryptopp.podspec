@@ -85,4 +85,5 @@ Other features include:
   s.vendored_libraries = 'lib/*.a'
   s.source_files = 'include/**/*.h'
   s.public_header_files = 'include/**/*.h'
+  s.preserve_paths = 'include','include/cryptopp'
 end
