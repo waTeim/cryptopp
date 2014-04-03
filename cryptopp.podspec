@@ -83,6 +83,7 @@ Other features include:
   s.platform     = :osx, '10.6'
   s.requires_arc = false
   s.vendored_libraries = 'lib/*.a'
-  s.source_files = s.public_header_files = 'include/**/*.h'
+  s.source_files = s.public_header_files =
+     'include/**/*.h'
   s.header_mappings_dir = 'include'
 end
