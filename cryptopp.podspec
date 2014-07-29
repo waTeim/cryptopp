@@ -79,7 +79,6 @@ Other features include:
   s.license      = 'BOOST'
   s.author       = { "waTeim" => "truthset@gmail.com" }
   s.source       = { :git => "https://github.com/waTeim/cryptopp.git", :tag => s.version.to_s }
-
   s.platform     = :osx, '10.6'
   s.requires_arc = false
   s.vendored_libraries = 'lib/*.a'
